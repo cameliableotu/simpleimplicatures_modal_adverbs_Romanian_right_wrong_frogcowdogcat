@@ -584,7 +584,7 @@ PennController("experiment" ,
 	        .print(),
 	       newText ("<p> Umbra este încă în lumina reflectoarelor dar câinele roşu s-a întors şi el pe scenă, alăturându-se câinelui galben.</p>")
 	         ,         
-	     newImage ("twodogs1.png")
+	     newImage ("twodogs.png")
                .print ()
 	       ,
 	       	newAudio("barking", "barking.mp3")
