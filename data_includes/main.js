@@ -166,7 +166,7 @@ PennController("introductionanimals" ,
 	    defaultText
 	        .print()
 	    ,
-	    newText ("<p> Hai acum să facem cunoştinţă cu animalele din spectacol. Avem un grup de trei câini. </p>")
+	    newText ("<p> Hai acum să facem cunoştinţă cu celelalte animale din spectacol. Avem un grup de trei câini. </p>")
 	    ,
 	                  
 	     newImage ("threedogs.png")
@@ -235,7 +235,7 @@ PennController("introductionanimals" ,
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newText ("<p> Toate animale au plecat de pe scenă. Hai să vedem dacă puiul de dragon ghiceşte animalul după umbra de pe cortină şi să îl răsplătim.</p>")
+		newText ("<p> Toate animalele au plecat de pe scenă. Hai să vedem dacă puiul de dragon ghiceşte animalul după umbra de pe cortină şi să îl răsplătim.</p>")
 		,
 		newImage ("dogshadow.jpg")
                .print ()
@@ -244,7 +244,7 @@ PennController ("experiment",
 		.play()
 		,
 
-		newText ("<p> Puiul de dragon: Sigur că e un câine. </p>")
+		newText ("<p> Puiul de dragon: Sigur că este un câine. </p>")
 	       ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -379,7 +379,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Foarte bine! Acum umbra se poate încă vedea dar câinele galben s-a întors înapoi pe scenă.</p>")
+	       newText ("<p> Acum umbra se poate încă vedea dar câinele galben s-a întors înapoi pe scenă.</p>")
 	          ,        
 	     newImage ("yellowdog.png")
                .print ()
@@ -402,7 +402,7 @@ PennController ("experiment",
 		.play()
 		,
 
-		newText ("<p> Hai acum să vedem ce zice puiul de dragon despre umbră şi să îl răsplătim.. </p>")
+		newText ("<p> Hai să vedem ce zice puiul de dragon despre umbră şi să îl răsplătim. </p>")
 	       ,
 		newText ("<p> Puiul de dragon: Poate că este câinele roşu.</p>")
 		,
@@ -604,7 +604,7 @@ PennController ("experiment",
 		newAudio("barking", "barking.mp3")
 		.play()
 		,
-		newText ("<p> Acum hai să vedem ce are de zis puiul de dragon despre umbră şi să îl răsplătim. </p>")
+		newText ("<p> Hai acum să vedem ce are de zis puiul de dragon despre umbră şi să îl răsplătim. </p>")
 		,
 		newText ("<p> Puiul de dragon: Sigur că este pisica albastră.</p>")
 		,
@@ -1134,7 +1134,7 @@ PennController ("experiment",
 		newAudio("frogsounds2sec", "frogsounds2sec.mp3")
 		.play()
 		,
-		newText ("<p> Hai să vedem ce zice puiul de dragon despre ea şi să îl răsplătim. </p>")
+		newText ("<p> Hai să vedem ce zice puiul de dragon despre umbră şi să îl răsplătim. </p>")
 		,
 		newText ("<p> Puiul de dragon: Poate că este pisica roşie.</p>")
 		,
@@ -1281,7 +1281,7 @@ PennController("experiment" ,
 	       newAudio("catsounds", "catsounds.mp3")
 		.play()
 		,
-	        newText ("<p> Acum se duc toate după cortină. </p>") 
+	        newText ("<p> Acum toate pisicile se duc după cortină. </p>") 
 	       ,
 	       newKey(" ")
         .wait()
