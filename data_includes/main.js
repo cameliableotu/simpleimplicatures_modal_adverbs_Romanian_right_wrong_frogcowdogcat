@@ -367,7 +367,8 @@ PennController("experiment" ,
 	    defaultText
 	        .print(),
 	       newText ("<p> Foarte bine. Într-adevăr, umbra e a unui câine, a unuia din cei trei câini pe care i-ai văzut la început.</p>")
-	     newImage ("threedogs1.png")
+	     ,
+	       newImage ("threedogs1.png")
                .print ()
 	       ,
 	       newKey(" ")
