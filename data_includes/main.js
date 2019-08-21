@@ -2170,7 +2170,7 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Look, it's not the yellow cow. The yellow cow has come back from behind the curtain, joining the orange cow, but the shadow is still there.</p>")
+	       newText ("<p> Uite, nu este vaca galbenă! Vaca galbenă a venit din spatele cortinei şi s-a alăturat celei portocalii, dar umbra este încă în acelaşi loc.</p>")
 	         ,         
 	     newImage ("twocows.png")
                .print ()
@@ -2192,9 +2192,9 @@ PennController ("experiment",
 		newAudio("cowsounds", "cowsounds.mp3")
 		.play()
 		,
-		newText ("<p> Now let's see what the baby dragon has to say about the shadow and reward him. </p>")
+		newText ("<p> Hai să vedem ce spune puiul de dragon despre umbră şi să îl recompensăm. </p>")
 		,
-		newText ("<p> Baby Dragon: It is possible that it is the green cow.</p>")
+		newText ("<p> Puiul de dragon: Poate că este vaca verde.</p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -2226,7 +2226,7 @@ PennController ("experiment",
                .print ()
 		,
 
-		newText ("<p> Baby Dragon: It is certain that it is the green cat.</p>")
+		newText ("<p> Puiul de dragon: Sigur că este pisica verde.</p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -2256,7 +2256,7 @@ PennController ("experiment",
 		newImage ("cowshadow.jpg")
                .print ()
 		,
-		newText ("<p> Baby Dragon: It is certain that it is the green cow.</p>")
+		newText ("<p> Puiul de dragon: Sigur că este vaca verde.</p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -2287,7 +2287,7 @@ PennController ("experiment",
                .print ()
 		,
 		
-		newText ("<p> Baby Dragon: It is possible that it is the green cat. </p>")
+		newText ("<p> Puiul de dragon: Poate că este pisica verde. </p>")
 	       ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -2314,7 +2314,7 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Now let's see who the shadow belongs to.Pam-pam! It's the green cow! </p>")
+	       newText ("<p> Hai să vedem acum a cui era umbra. Pam-pam! Vaca verde! </p>")
 	         ,         
 	     newImage ("greencowrevealedonstage.jpg")
                .print ()
@@ -2329,7 +2329,7 @@ PennController("experiment" ,
 ;
 PennController.SendResults( "send" );
 PennController( "final" ,
-    newText("<p> The baby dragon thanks you for the apples, and so does the wizard! Bubbye! :) Thank you for your participation!</p>")
+    newText("<p> Puiul de dragon spune “Mulţumesc” pentru mere şi la fel şi vrăjitorul! Pa-pa! :) Mulţumesc pentru participare!</p>")
         .print()
 	       ,
 	newImage ("dragon.png")
