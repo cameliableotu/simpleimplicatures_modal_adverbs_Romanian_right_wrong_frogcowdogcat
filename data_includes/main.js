@@ -169,7 +169,7 @@ PennController("introductionanimals" ,
 	    newText ("<p> Hai acum să facem cunoştinţă cu animalele din spectacol. Avem un grup de trei câini. </p>")
 	    ,
 	                  
-	     newImage ("threedogs1.png")
+	     newImage ("threedogs.png")
                .print ()
 	       ,
 	       newAudio("barking", "barking.mp3")
@@ -221,7 +221,7 @@ PennController("introductionanimals" ,
 	       newText ("<p> Un grup de trei vaci. </p>")
 	    ,
 	                  
-	     newImage ("threecows1.png")
+	     newImage ("threecows.png")
                .print ()
 	       ,
 	       newAudio("cowsounds2sec", "cowsounds2sec.mp3")
@@ -368,7 +368,7 @@ PennController("experiment" ,
 	        .print(),
 	       newText ("<p> Foarte bine. Într-adevăr, umbra e a unui câine, a unuia din cei trei câini pe care i-ai văzut la început.</p>")
 	     ,
-	       newImage ("threedogs1.png")
+	       newImage ("threedogs.png")
                .print ()
 	       ,
 	       newKey(" ")
@@ -381,7 +381,7 @@ PennController("experiment" ,
 	        .print(),
 	       newText ("<p> Foarte bine! Acum umbra câinelui se poate încă vedea dar câinele galben s-a întors înapoi pe scenă.</p>")
 	          ,        
-	     newImage ("yellowdog1.png")
+	     newImage ("yellowdog.png")
                .print ()
 	       ,
 	       	newAudio("barking", "barking.mp3")
@@ -1807,7 +1807,7 @@ PennController("experiment" ,
 	       newText ("<p> Hai să facem cunoştinţă cu grupul vacilor. </p>")
 	    ,
 	                  
-	     newImage ("threecows1.png")
+	     newImage ("threecows.png")
                .print ()
 	       ,
 	       newAudio("cowsounds", "cowsounds.mp3")
@@ -1955,7 +1955,7 @@ PennController("experiment" ,
 	        .print(),
 	       newText ("<p> Foarte bine. Într-adevăr, umbra e a unei vaci, a uneia din cele trei vaci pe care le-ai văzut la început.</p>")
 	         ,         
-	     newImage ("threecows1.png")
+	     newImage ("threecows.png")
                .print ()
 	       ,
 	       newKey(" ")
