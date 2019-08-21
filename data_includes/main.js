@@ -8,7 +8,7 @@ PennController( "welcome" ,
     newText("<p> Salutare tuturor! </p>")
     ,
     newText("<p> Salutare tuturor, vom juca un joc foarte distractiv împreună cu un vrăjitor şi un pui de dragon şi nişte umbre fascinante care aparţin unor animale.</p>" ),
-    newText("<p> Te rog introdu ID-ul tău, răspunde la nişte întrebări, iar apoi fă click pe butonul de mai jos pentru  a începe experimentul.</p>")
+    newText("<p> Te rog introdu ID-ul tău, răspunde la nişte întrebări, iar apoi fă click pe butonul de mai jos pentru a începe experimentul.</p>")
     ,
     newTextInput("ID")
         .print()
@@ -276,7 +276,7 @@ PennController ("experiment",
                .print ()
 		,
 	
-		newText ("<p> Puiul de dragon: Poate că e o pisică. </p>")
+		newText ("<p> Puiul de dragon: Poate că este o pisică. </p>")
 	       ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -307,7 +307,7 @@ PennController ("experiment",
                .print ()
 		,
 
-		newText ("<p> Puiul de dragon: Sigur că e o pisică. </p>")
+		newText ("<p> Puiul de dragon: Sigur că este o pisică. </p>")
 	       ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -338,7 +338,7 @@ PennController ("experiment",
                .print ()
 		,
 
-		newText ("<p> Puiul de dragon: Poate că e un câine </p>")
+		newText ("<p> Puiul de dragon: Poate că este un câine </p>")
 	       ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -379,7 +379,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Foarte bine! Acum umbra câinelui se poate încă vedea dar câinele galben s-a întors înapoi pe scenă.</p>")
+	       newText ("<p> Foarte bine! Acum umbra se poate încă vedea dar câinele galben s-a întors înapoi pe scenă.</p>")
 	          ,        
 	     newImage ("yellowdog.png")
                .print ()
@@ -606,7 +606,7 @@ PennController ("experiment",
 		,
 		newText ("<p> Acum hai să vedem ce are de zis puiul de dragon despre umbră şi să îl răsplătim. </p>")
 		,
-		newText ("<p> Puiul de dragon: Sigur că este  pisica albastră.</p>")
+		newText ("<p> Puiul de dragon: Sigur că este pisica albastră.</p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -638,8 +638,6 @@ PennController ("experiment",
 		,
 		newAudio("barking", "barking.mp3")
 		.play()
-		,
-		newText ("<p> Acum hai să vedem ce are de zis puiul de dragon despre umbră şi să îl răsplătim. </p>")
 		,
 		newText ("<p> Puiul de dragon: Sigur că este câinele albastru.</p>")
 		,
@@ -775,7 +773,7 @@ PennController ("experiment",
 		.play()
 		,
 
-		newText ("<p> Puiul de dragon: Poate că e un câine. </p>")
+		newText ("<p> Puiul de dragon: Poate că este un câine. </p>")
 	       ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -807,7 +805,7 @@ PennController ("experiment",
                .print ()
 		,
 
-		newText ("<p> Puiul de dragon: Sigur că e o broască. </p>")
+		newText ("<p> Puiul de dragon: Sigur că este o broască. </p>")
 	       ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -837,7 +835,7 @@ PennController ("experiment",
 		newImage ("frogshadow.jpg")
                .print ()
 		,
-		newText ("<p> Puiul de dragon: Sigur că e un câine. </p>")
+		newText ("<p> Puiul de dragon: Sigur că este un câine. </p>")
 	       ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -868,7 +866,7 @@ PennController ("experiment",
                .print ()
 		,
 
-		newText ("<p> Puiul de dragon: Poate că e o broască. </p>")
+		newText ("<p> Puiul de dragon: Poate că este o broască. </p>")
 	       ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -909,7 +907,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Umbra broaştei este încă acolo dar broasca albastră s-a întors pe scenă.</p>")
+	       newText ("<p> Umbra este încă acolo dar broasca albastră s-a întors pe scenă.</p>")
 	          ,        
 	     newImage ("bluefrog.png")
                .print ()
@@ -934,7 +932,7 @@ PennController ("experiment",
 
 		newText ("<p> Hai să vedem ce spune puiul de dragon despre umbră şi să îl răsplătim. </p>")
 	       ,
-		newText ("<p> Puiul de dragon: Sigur că e broasca mov.</p>")
+		newText ("<p> Puiul de dragon: Sigur că este broasca mov.</p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -964,7 +962,7 @@ PennController ("experiment",
 		newImage ("frogshadow.jpg")
                .print ()
 		,
-		newText ("<p> Puiul de dragon: Poate că e broasca roşie.</p>")
+		newText ("<p> Puiul de dragon: Poate că este broasca roşie.</p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -994,7 +992,7 @@ PennController ("experiment",
 		newImage ("frogshadow.jpg")
                .print ()
 		,
-		newText ("<p> Puiul de dragon: Sigur că e broasca albastră.</p>")
+		newText ("<p> Puiul de dragon: Sigur că este broasca albastră.</p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1025,7 +1023,7 @@ PennController ("experiment",
                .print ()
 		,
 
-		newText ("<p> Puiul de dragon: Poate că e broasca mov.</p>")
+		newText ("<p> Puiul de dragon: Poate că este broasca mov.</p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1056,7 +1054,7 @@ PennController ("experiment",
                .print ()
 	
 		,
-		newText ("<p> Puiul de dragon: Sigur că e broasca roşie.</p>")
+		newText ("<p> Puiul de dragon: Sigur că este broasca roşie.</p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1086,7 +1084,7 @@ PennController ("experiment",
 		newImage ("frogshadow.jpg")
                .print ()
 		,
-		newText ("<p> Puiul de dragon: Poate că  e broasca albastră.</p>")
+		newText ("<p> Puiul de dragon: Poate că este broasca albastră.</p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1138,7 +1136,7 @@ PennController ("experiment",
 		,
 		newText ("<p> Hai să vedem ce zice puiul de dragon despre ea şi să îl răsplătim. </p>")
 		,
-		newText ("<p> Puiul de dragon: Poate că e pisica roşie.</p>")
+		newText ("<p> Puiul de dragon: Poate că este pisica roşie.</p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1170,7 +1168,7 @@ PennController ("experiment",
                .print ()
 		,
 
-		newText ("<p> Puiul de dragon: Sigur că e pisica roşie.</p>")
+		newText ("<p> Puiul de dragon: Sigur că este pisica roşie.</p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1200,7 +1198,7 @@ PennController ("experiment",
 		newImage ("frogshadow.jpg")
                .print ()
 		,
-		newText ("<p> Puiul de dragon: Poate că e broasca roşie.</p>")
+		newText ("<p> Puiul de dragon: Poate că este broasca roşie.</p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1231,7 +1229,7 @@ PennController ("experiment",
                .print ()
 		,
 		
-		newText ("<p> Puiul de dragon: Sigur că e broasca roşie. </p>")
+		newText ("<p> Puiul de dragon: Sigur că este broasca roşie. </p>")
 	       ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1302,7 +1300,7 @@ PennController ("experiment",
 		.play()
 		,
 
-		newText ("<p> Puiul de dragon: Poate că e un câine. </p>")
+		newText ("<p> Puiul de dragon: Poate că este un câine. </p>")
 	       ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1334,7 +1332,7 @@ PennController ("experiment",
                .print ()
 		,
 
-		newText ("<p> Puiul de dragon: Sigur că e o pisică. </p>")
+		newText ("<p> Puiul de dragon: Sigur că este o pisică. </p>")
 	       ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1364,7 +1362,7 @@ PennController ("experiment",
 		newImage ("catshadow.jpg")
                .print ()
 		,
-		newText ("<p> Puiul de dragon: Sigur că e un câine. </p>")
+		newText ("<p> Puiul de dragon: Sigur că este un câine. </p>")
 	       ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1395,7 +1393,7 @@ PennController ("experiment",
                .print ()
 		,
 
-		newText ("<p> Puiul de dragon: Poate că e o o pisică. </p>")
+		newText ("<p> Puiul de dragon: Poate că este o pisică. </p>")
 	       ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1436,7 +1434,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Acum umbra pisicii se poate încă vedea dar pisica verde s-a întors înapoi pe scenă.</p>")
+	       newText ("<p> Acum umbra se poate încă vedea dar pisica verde s-a întors înapoi pe scenă.</p>")
 	          ,        
 	     newImage ("greencat.jpg")
                .print ()
@@ -1667,7 +1665,7 @@ PennController ("experiment",
 		newText ("<p> Hai să vedem ce zice puiul de dragon despre umbră şi să îl răsplătim. </p>")
 	
 		,
-		newText ("<p> Puiul de dragon: Sigur că e pisica roz.</p>")
+		newText ("<p> Puiul de dragon: Sigur că este pisica roz.</p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1699,7 +1697,7 @@ PennController ("experiment",
                .print ()
 		,
 
-		newText ("<p> Puiul de dragon: Poate  că e iepurele roz.</p>")
+		newText ("<p> Puiul de dragon: Poate că este iepurele roz.</p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1729,7 +1727,7 @@ PennController ("experiment",
 		newImage ("catshadow.jpg")
                .print ()
 		,
-		newText ("<p> Puiul de dragon: Poate că e pisica roz.</p>")
+		newText ("<p> Puiul de dragon: Poate că este pisica roz.</p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1760,7 +1758,7 @@ PennController ("experiment",
                .print ()
 		,
 		
-		newText ("<p> Puiul de dragon: Sigur că e iepurele roz. </p>")
+		newText ("<p> Puiul de dragon: Sigur că este iepurele roz. </p>")
 	       ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1787,7 +1785,7 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Hai acum să vedem a cui este umbra .Pam-pam! Este pisica roz! </p>")
+	       newText ("<p> Hai acum să vedem a cui este umbra.Pam-pam! Este pisica roz! </p>")
 	         ,         
 	     newImage ("pinkcatrevealedonstage.jpg")
                .print ()
@@ -1813,7 +1811,7 @@ PennController("experiment" ,
 	       newAudio("cowsounds", "cowsounds.mp3")
 		.play()
 		,
-	        newText ("<p> Acum se duc toate în spatele cortinei. </p>") 
+	        newText ("<p> Acum toate vacile se duc în spatele cortinei. </p>") 
 	       ,
 	       newKey(" ")
         .wait()
@@ -1966,7 +1964,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Acum umbra vacii se poate încă vedea dar vaca portocalie s-a întors înapoi pe scenă.</p>")
+	       newText ("<p> Acum umbra se poate încă vedea dar vaca portocalie s-a întors înapoi pe scenă.</p>")
 	          ,        
 	     newImage ("orangecow.png")
                .print ()
@@ -1989,7 +1987,7 @@ PennController ("experiment",
 		.play()
 		,
 
-		newText ("<p> Hai acum să vedem ce zice puiul de dragon despre umbră şi să îl răsplătim. </p>")
+		newText ("<p> Hai să vedem ce zice puiul de dragon despre umbră şi să îl răsplătim. </p>")
 	       ,
 		newText ("<p> Puiul de dragon: Sigur că este vaca verde.</p>")
 		,
@@ -2315,7 +2313,7 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Hai să vedem acum a cui era umbra. Pam-pam! Vaca verde! </p>")
+	       newText ("<p> Hai să vedem acum a cui este umbra. Pam-pam! Este vaca verde! </p>")
 	         ,         
 	     newImage ("greencowrevealedonstage.jpg")
                .print ()
