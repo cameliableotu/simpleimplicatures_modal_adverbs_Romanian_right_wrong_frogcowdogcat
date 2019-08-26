@@ -25,7 +25,7 @@ PennController( "welcome" ,
 	    newTextInput ("Profession")  
         .print()
 	       ,
-	       newText ("<p>Pentru a trece la pagina următoare pe parcursul experimentului, foloseşte bara de spaţiu (space bar). </p>")
+	       newText ("<p>Pentru a trece la pagina următoare pe parcursul jocului, foloseşte bara de spaţiu (space bar). </p>")
 	       .print()
 	       ,
 	       
@@ -47,6 +47,7 @@ PennController("welcome" ,
 	                  
 	     newImage ("wizardanddragon.png")
                .print ()
+	   
 	       ,
 	       newKey(" ")
         .wait());
