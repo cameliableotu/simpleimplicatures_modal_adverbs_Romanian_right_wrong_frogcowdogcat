@@ -810,6 +810,8 @@ PennController ("experiment",
 
 		newText ("<p> Puiul de dragon: Poate că este un câine. </p>")
 	       ,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+	        ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1098,12 +1100,14 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("frogshadow.jpg")
+		newImage ("frogshadowonefrogonstage", "frogshadowonefrogonstage.png")
                .print ()
 	
 		,
 		newText ("<p> Puiul de dragon: Sigur că este broasca roşie.</p>")
 		,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+	        ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1129,11 +1133,13 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("frogshadow.jpg")
+		newImage ("frogshadowonefrogonstage","frogshadowonefrogonstage.png" )
                .print ()
 		,
 		newText ("<p> Puiul de dragon: Poate că este broasca albastră.</p>")
 		,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+	        ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1176,7 +1182,7 @@ PennController("experiment" ,
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("frogshadow.jpg")
+		newImage ("frogshadowtwofrogsonstage", "frogshadowtwofrogsonstage.png")
                .print ()
 		,
 		newAudio("frogsounds2sec", "frogsounds2sec.mp3")
@@ -1184,7 +1190,7 @@ PennController ("experiment",
 		,
 		newText ("<p> Hai să vedem ce zice puiul de dragon despre umbră şi să îl răsplătim. </p>")
 		,
-		newText ("<p> Puiul de dragon: Poate că este pisica roşie.</p>")
+		newText ("<p> Puiul de dragon: Poate că este broasca mov.</p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1212,12 +1218,14 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("frogshadow.jpg")
+		newImage ("frogshadowtwofrogsonstage", "frogshadowtwofrogsonstage.png")
                .print ()
 		,
 
-		newText ("<p> Puiul de dragon: Sigur că este pisica roşie.</p>")
+		newText ("<p> Puiul de dragon: Sigur că este broasca mov.</p>")
 		,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+	        ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1243,11 +1251,13 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("frogshadow.jpg")
+		newImage ("frogshadowtwofrogsonstage", "frogshadowtwofrogsonstage.png")
                .print ()
 		,
 		newText ("<p> Puiul de dragon: Poate că este broasca roşie.</p>")
 		,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+	        ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1273,12 +1283,14 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("frogshadow.jpg")
+		newImage ("frogshadowtwofrogsonstage","frogshadowtwofrogsonstage.png")
                .print ()
 		,
 		
 		newText ("<p> Puiul de dragon: Sigur că este broasca roşie. </p>")
 	       ,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+	        ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1339,9 +1351,9 @@ PennController("experiment" ,
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newText ("<p> Hai să vedem ce zice puiul de dragon despre umbră şi să îl răsplătim. .</p>")
+		newText ("<p> Hai să vedem ce zice puiul de dragon despre umbră şi să îl răsplătim. </p>")
 		,
-		newImage ("catshadow.jpg")
+		newImage ("catshadowallcats", "catshadowallcats.png")
                .print ()
 		,
 		newAudio("catsounds", "catsounds.mp3")
@@ -1350,6 +1362,8 @@ PennController ("experiment",
 
 		newText ("<p> Puiul de dragon: Poate că este un câine. </p>")
 	       ,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+	        ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1376,12 +1390,14 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("catshadow.jpg")
+		newImage ("catshadowallcats", "catshadowallcats.png")
                .print ()
 		,
 
 		newText ("<p> Puiul de dragon: Sigur că este o pisică. </p>")
 	       ,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+	        ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1407,11 +1423,13 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("catshadow.jpg")
+		newImage ("catshadowallcats", "catshadowallcats.png")
                .print ()
 		,
 		newText ("<p> Puiul de dragon: Sigur că este un câine. </p>")
 	       ,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+	        ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1437,12 +1455,14 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("catshadow.jpg")
+		newImage ("catshadowallcats", "catshadowallcats.png")
                .print ()
 		,
 
 		newText ("<p> Puiul de dragon: Poate că este o pisică. </p>")
 	       ,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+	        ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1498,7 +1518,7 @@ PennController("experiment" ,
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("catshadow.jpg")
+		newImage ("catshadowonecatonstage", "catshadowonecatonstage.png")
                .print ()
 		,
 		newAudio("catsounds", "catsounds.mp3")
@@ -1534,12 +1554,14 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("catshadow.jpg")
+		newImage ("catshadowonecatonstage", "catshadowonecatonstage.png")
                .print ()
 		,
 	
 		newText ("<p> Puiul de dragon: Poate că este pisica verde.</p>")
 		,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+	        ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1565,11 +1587,13 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("catshadow.jpg")
+		newImage ("catshadowonecatonstage", "catshadowonecatonstage.png")
                .print ()
 		,
 		newText ("<p> Puiul de dragon: Sigur că este pisica roz.</p>")
 		,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+	        ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1595,12 +1619,14 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("catshadow.jpg")
+		newImage ("catshadowonecatonstage", "catshadowonecatonstage.png")
                .print ()
 		,
 
 		newText ("<p> Puiul de dragon: Poate că este pisica roz.</p>")
 		,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+	        ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1626,12 +1652,14 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("catshadow.jpg")
+		newImage ("catshadowonecatonstage", "catshadowonecatonstage.png")
                .print ()
 	
 		,
 		newText ("<p> Puiul de dragon: Sigur că este pisica albastră.</p>")
 		,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+	        ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1657,11 +1685,13 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("catshadow.jpg")
+		newImage ("catshadowonecatonstage", "catshadowonecatonstage.png")
                .print ()
 		,
 		newText ("<p> Puiul de dragon: Sigur că este pisica verde.</p>")
 		,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+	        ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1704,14 +1734,13 @@ PennController("experiment" ,
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("catshadow.jpg")
+		newImage ("catshadowtwocatsonstage", "catshadowtwocatsonstage.png")
                .print ()
 		,
 		newAudio("catsounds", "catsounds.mp3")
 		.play()
 		,
 		newText ("<p> Hai să vedem ce zice puiul de dragon despre umbră şi să îl răsplătim. </p>")
-	
 		,
 		newText ("<p> Puiul de dragon: Sigur că este pisica roz.</p>")
 		,
@@ -1741,12 +1770,13 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("catshadow.jpg")
+		newImage ("catshadowtwocatsonstage", "catshadowstwocatsonstage.png")
                .print ()
 		,
-
-		newText ("<p> Puiul de dragon: Poate că este iepurele roz.</p>")
+		newText ("<p> Puiul de dragon: Poate că este pisica albastră.</p>")
 		,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+	        ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1772,11 +1802,13 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("catshadow.jpg")
+		newImage ("catshadowtwocatsonstage", "catshadowtwocatsonstage.png")
                .print ()
 		,
 		newText ("<p> Puiul de dragon: Poate că este pisica roz.</p>")
 		,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+	        ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1802,12 +1834,14 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("catshadow.jpg")
+		newImage ("catshadowtwocatsonstage","catshadowtwocatsonstage.png")
                .print ()
 		,
 		
-		newText ("<p> Puiul de dragon: Sigur că este iepurele roz. </p>")
+		newText ("<p> Puiul de dragon: Sigur că este pisica albastră. </p>")
 	       ,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+	        ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1871,7 +1905,7 @@ PennController ("experiment",
 	        .print(),
 		newText ("<p> Hai să vedem ce spune puiul de dragon despre umbră şi să îl răsplătim .</p>")
 		,
-		newImage ("cowshadow.jpg")
+		newImage ("cowshadowallcats", "cowshadowallcats.png")
                .print ()
 		,
 		newAudio("cowsounds", "cowsounds.mp3")
@@ -1906,12 +1940,13 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("cowshadow.jpg")
+		newImage ("cowshadowallcows", "cowshadowallcows.png")
                .print ()
 		,
-
 		newText ("<p> Puiul de dragon: Poate că este o vacă. </p>")
 	       ,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1937,11 +1972,13 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("cowshadow.jpg")
+		newImage ("cowshadowallcows", "cowshadowallcows.png)
                .print ()
 		,
 		newText ("<p> Puiul de dragon: Sigur că este o vacă. </p>")
 	       ,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+		 ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1967,12 +2004,14 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("cowshadow.jpg")
+		newImage ("cowshadowallcows", "cowshadowallcows.png")
                .print ()
 		,
 
 		newText ("<p> Puiul de dragon: Poate că este o pisică. </p>")
 	       ,
+	       newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+               ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -2028,7 +2067,7 @@ PennController("experiment" ,
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("cowshadow.jpg")
+		newImage ("cowshadowonecowonstage", "cowshadowonecowonstage.png")
                .print ()
 		,
 		newAudio("cowsounds", "cowsounds.mp3")
@@ -2064,11 +2103,13 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("cowshadow.jpg")
+		newImage ("cowshadowonecowonstage", "cowshadowonecowonstage.png")
                .print ()
 		,
 		newText ("<p> Puiul de dragon: Poate că  este vaca galbenă.</p>")
 		,
+	       newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+               ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -2094,11 +2135,13 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("cowshadow.jpg")
+		newImage ("cowshadowonecowonstage", "cowshadowonecowonstage.png)
                .print ()
 		,
 		newText ("<p> Puiul de dragon: Sigur că este vaca portocalie.</p>")
 		,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+               ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -2124,12 +2167,14 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("cowshadow.jpg")
+		newImage ("cowshadowonecowonstage", "cowshadowonecowonstage.png")
                .print ()
 		,
 
 		newText ("<p> Puiul de dragon: Poate că este vaca verde.</p>")
 		,
+	       newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+               ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -2155,12 +2200,14 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("cowshadow.jpg")
+		newImage ("cowshadowonecowonstage", "cowshadowonecowonstage.png")
                .print ()
 	
 		,
 		newText ("<p> Puiul de dragon: Sigur că este vaca galbenă.</p>")
 		,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+               ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -2186,11 +2233,13 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("cowshadow.jpg")
+		newImage ("cowshadowonecowonstage", "cowshadowonecowonstage.png")
                .print ()
 		,
 		newText ("<p> Puiul de dragon: Poate că este vaca portocalie.</p>")
 		,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+               ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -2233,7 +2282,7 @@ PennController("experiment" ,
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("cowshadow.jpg")
+		newImage ("cowshadowtwocowsonstage", "cowshadowtwocowsonstage.png")
                .print ()
 		,
 		newAudio("cowsounds", "cowsounds.mp3")
@@ -2269,12 +2318,13 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("cowshadow.jpg")
+		newImage ("cowshadowtwocowsonstage", "cowshadowtwocowsonstage.png")
                .print ()
 		,
-
-		newText ("<p> Puiul de dragon: Sigur că este pisica verde.</p>")
+		newText ("<p> Puiul de dragon: Sigur că este vaca galbenă.</p>")
 		,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+               ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -2300,11 +2350,13 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("cowshadow.jpg")
+		newImage ("cowshadowtwocowsonstage", "cowshadowtwocowsonstage.png")
                .print ()
 		,
 		newText ("<p> Puiul de dragon: Sigur că este vaca verde.</p>")
 		,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+               ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -2330,12 +2382,13 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("cowshadow.jpg")
+		newImage ("cowshadowtwocowsonstage", "cowshadowtwocowsonstage.png")
                .print ()
 		,
-		
-		newText ("<p> Puiul de dragon: Poate că este pisica verde. </p>")
-	       ,
+		newText ("<p> Puiul de dragon: Poate că este vaca galbenă. </p>")
+               ,
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+               ,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
