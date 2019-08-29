@@ -1770,7 +1770,7 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("catshadowtwocatsonstage", "catshadowstwocatsonstage.png")
+		newImage ("catshadowtwocatsonstage", "catshadowtwocatsonstage.png")
                .print ()
 		,
 		newText ("<p> Puiul de dragon: Poate că este pisica albastră.</p>")
