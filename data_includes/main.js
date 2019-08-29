@@ -1905,7 +1905,7 @@ PennController ("experiment",
 	        .print(),
 		newText ("<p> Hai să vedem ce spune puiul de dragon despre umbră şi să îl răsplătim .</p>")
 		,
-		newImage ("cowshadowallcats", "cowshadowallcats.png")
+		newImage ("cowshadowallcows", "cowshadowallcows.png")
                .print ()
 		,
 		newAudio("cowsounds", "cowsounds.mp3")
