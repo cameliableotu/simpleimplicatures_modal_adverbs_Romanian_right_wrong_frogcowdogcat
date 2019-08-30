@@ -355,7 +355,7 @@ PennController ("experiment",
                .print ()
 		,
 
-	       newText ("<p> Puiul de dragon: Poate că este un câine </p>")
+	       newText ("<p> Puiul de dragon: Poate că este un câine. </p>")
 	       ,
 	       newText ("<p> Cum vei răsplati puiul de dragon? </p>")
 	       ,
