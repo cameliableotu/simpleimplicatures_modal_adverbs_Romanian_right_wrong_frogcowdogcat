@@ -91,7 +91,10 @@ PennController("details" ,
 	       newKey(" ")
         .wait()
 )
-;	    
+;	
+PennController("trial" ,
+	    defaultText
+	        .print()
 	       ,
 newText ("<p> Hai să facem cunoştinţă cu un iepuraş foarte drăguţ. </p> "),
 	       newImage ("smallpinkbunny", "smallpinkbunny.png")
