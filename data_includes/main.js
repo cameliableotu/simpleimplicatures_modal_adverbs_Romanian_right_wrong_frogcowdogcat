@@ -73,7 +73,7 @@ PennController("details" ,
 	    defaultText
 	        .print()
 	       ,
-  newText ("<p> <p> Când ghiceşte a cui e umbra în mod corect, trebuie să recompensezi puiul de dragon cu un măr mare, iar atunci când nu ghiceşte a cui e umbra, îi dai doar un măr mic. </p>")
+  newText ("<p> <p> Când puiul de dragon ghiceşte a cui e umbra în mod corect, trebuie să-l recompensezi cu un măr mare, iar atunci când nu ghiceşte a cui e umbra, îi dai doar un măr mic. </p>")
 ,
 	      newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
