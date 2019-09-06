@@ -483,8 +483,10 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Acum umbra se poate încă vedea dar câinele galben s-a întors înapoi pe scenă.</p>")
+	       newText ("<p> Uite, câinele galben a revenit în faţa cortinei, dar umbra este încă acolo, în lumina reflectoarelor.</p>")
 	          ,        
+	       newText ("<p> Deci umbra nu este câinele galben! </p>")
+	       ,
 	     newImage ("dogshadowonedogonstage", "dogshadowonedogonstage.png")
                .print ()
 	       ,
@@ -697,7 +699,9 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Umbra este încă în lumina reflectoarelor dar câinele roşu s-a întors şi el pe scenă, alăturându-se câinelui galben.</p>")
+	       newText ("<p> Uite, câinele roşu a revenit în faţa cortinei, alăturându-se câinelui galben, dar umbra este încă acolo, în lumina reflectoarelor</p>")
+	         ,        
+	       newText ("<p> Deci umbra nu este câinele roşu! Şi nu este câinele galben".</p>")
 	         ,         
 	     newImage ("dogshadowtwodogsonstage", "dogshadowtwodogsonstage.png")
                .print ()
@@ -1068,8 +1072,10 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Umbra este încă acolo dar broasca albastră s-a întors pe scenă.</p>")
-	          ,        
+	       newText ("<p> Uite, broasca albastră a revenit în faţa cortinei, dar umbra este încă acolo, în lumina reflectoarelor. </p>")
+	          ,  
+	       newText ("<p> Deci umbra nu este broasca albastră! </p>")
+	       ,
 	     newImage ("frogshadowonefrogonstage","frogshadowonefrogonstage.png")
                .print ()
 	       ,
@@ -1284,8 +1290,10 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Uite, nu e broasca mov. Broasca mov a revenit din spatele cortinei, alăturându-se broaştei albastre, dar umbra este încă acolo.</p>")
+	       newText ("<p> Uite, broasca mov a revenit în faţa cortinei, alăturându-se broaştei albastre, dar umbra este încă acolo, în lumina reflectoarelor. </p>")
 	         ,         
+	       newText ("<p> Deci umbra nu este broasca mov! Şi nu este broasca albastră! </p>")
+	       ,
 	     newImage ("frogshadowtwofrogsonstage", "frogshadowtwofrogsonstage.png")
                .print ()
 	       ,
@@ -1648,8 +1656,10 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Acum umbra se poate încă vedea dar pisica verde s-a întors înapoi pe scenă.</p>")
-	          ,        
+	       newText ("<p> Acum pisica verde a revenit în faţa cortinei, dar umbra este încă acolo, în lumina reflectoarelor.</p>")
+	          ,    
+	       newText ("<p> Deci umbra nu este pisica verde! </p>")
+			,
 	     newImage ("catshadowonecatonstage", "catshadowonecatonstage.png")
                .print ()
 	       ,
@@ -1865,8 +1875,10 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Uite, nu e pisica albastră. Pisica albastră a revenit pe scenă, alăturându-se pisicii verzi, dar umbra este încă acolo.</p>")
-	         ,         
+	       newText ("<p> Uite, pisica albastră a revenit în faţa cortinei, alăturându-se pisicii verzi, dar umbra este încă acolo, în lumina reflectoarelor.</p>")
+	         ,      
+	       newText ("<p> Deci umbra nu este pisica albastră! Şi nu este pisica verde! </p>")
+	       ,
 	     newImage ("catshadowtwocatsonstage", "catshadowtwocatsonstage.png")
                .print ()
 	       ,
@@ -2226,8 +2238,10 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Acum umbra se poate încă vedea dar vaca portocalie s-a întors înapoi pe scenă.</p>")
-	          ,        
+	       newText ("<p> Uite, vaca portocalie a revenit în faţa cortinei, dar umbra este încă acolo, în lumina reflectoarelor.</p>")
+	          ,      
+	       newText ("<p> Deci umbra nu este vaca portocalie! </p>")
+	       ,
 	     newImage ("cowshadowonecowonstage", "cowshadowonecowonstage.png")
                .print ()
 	       ,
@@ -2442,8 +2456,10 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Uite, nu este vaca galbenă! Vaca galbenă a venit din spatele cortinei şi s-a alăturat celei portocalii, dar umbra este încă în acelaşi loc.</p>")
+	       newText ("<p> Uite, vaca galbenă a revenit în faţa cortinei şi s-a alăturat celei portocalii, dar umbra este încă acolo, în lumina reflectoarelor.</p>")
 	         ,         
+	       newText ("<p> Deci umbra nu este vaca galbenă! Şi nu este vaca portocalie! </p>")
+	       ,
 	     newImage ("cowshadowtwocowsonstage", "cowshadowtwocowsonstage.png")
                .print ()
 	       ,
