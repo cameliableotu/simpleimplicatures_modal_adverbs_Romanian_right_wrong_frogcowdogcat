@@ -701,7 +701,7 @@ PennController("experiment" ,
 	        .print(),
 	       newText ("<p> Uite, câinele roşu a revenit în faţa cortinei, alăturându-se câinelui galben, dar umbra este încă acolo, în lumina reflectoarelor</p>")
 	         ,        
-	       newText ("<p> Deci umbra nu este câinele roşu! Şi nu este câinele galben.</p>")
+	       newText ("<p> Deci umbra nu este câinele roşu! Şi nu este câinele galben! </p>")
 	         ,         
 	     newImage ("dogshadowtwodogsonstage", "dogshadowtwodogsonstage.png")
                .print ()
@@ -882,8 +882,6 @@ PennController("experiment" ,
 	       newAudio("frogsounds2sec", "frogsounds2sec.mp3")
 		.play()
 		,
-	        newText ("<p> Acum se duc toate în spatele cortinei. </p>") 
-	       ,
 	       newKey(" ")
         .wait()
 	       
