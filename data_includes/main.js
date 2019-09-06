@@ -75,8 +75,8 @@ PennController("details" ,
 	       ,
   newText ("<p> Puiul de dragon trebuie să descrie a cui crede el că este umbra. </p>")
 	       ,
-   newText ("<p> Când puiul de dragon oferă cea mai bună descriere, trebuie să-l recompensezi cu un măr mare. </p>"), 
-   newText ("<p> Atunci când puiul de dragon nu oferă cea mai bună descriere, îi dai doar un măr mic. </p>")
+   newText ("<p> Când ceea ce puiul de dragon spune este bine, trebuie să-l recompensezi cu un măr mare. </p>"), 
+   newText ("<p> Când ceea ce puiul de dragon spune nu e bine, îi dai doar un măr mic. </p>")
 ,
 	      newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -126,7 +126,7 @@ PennController("trial2" ,
 	       ,
 	       newText ("<p> Puiul de dragon spune: Este un şoarece. </p>")
 	       ,
-	       newText ("<p> Puiul de dragon nu a oferit cea mai bună descriere. Umbra nu aparţine unui şoarece, ci unui iepuraş. </p>"),
+	       newText ("<p> Ceea ce puiul de dragon a spus nu este bine. Umbra nu aparţine unui şoarece, ci unui iepuraş. </p>"),
 	       newText ("<p> Din acest motiv, îi vei da puiului de dragon un măr mic, nu un măr mare. </p>"),
 	       newText ("<p> Pentru a răsplăti puiul de dragon, fă click pe mărul care este răsplata sa, în cazul acesta, mărul mic</p>")
 	       ,
@@ -308,9 +308,8 @@ PennController("experiment" ,
 	       ,
   newText ("<p> Puiul de dragon trebuie să descrie a cui crede el că este umbra. </p>")
 	       ,
-   newText ("<p> Când puiul de dragon oferă cea mai bună descriere, trebuie să-l recompensezi cu un măr mare. </p>"), 
-   newText ("<p> Atunci când puiul de dragon nu oferă cea mai bună descriere, îi dai doar un măr mic. </p>")
-,
+     newText ("<p> Când ceea ce puiul de dragon spune este bine, trebuie să-l recompensezi cu un măr mare. </p>"), 
+   newText ("<p> Când ceea ce puiul de dragon spune nu e bine, îi dai doar un măr mic. </p>"),
 	      newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -895,8 +894,8 @@ PennController("experiment" ,
 	       ,
   newText ("<p> Puiul de dragon trebuie să descrie a cui crede el că este umbra. </p>")
 	       ,
-   newText ("<p> Când puiul de dragon oferă cea mai bună descriere, trebuie să-l recompensezi cu un măr mare. </p>"), 
-   newText ("<p> Atunci când puiul de dragon nu oferă cea mai bună descriere, îi dai doar un măr mic. </p>")
+   newText ("<p> Când ceea ce puiul de dragon spune este bine, trebuie să-l recompensezi cu un măr mare. </p>"), 
+   newText ("<p> Când ceea ce puiul de dragon spune nu e bine, îi dai doar un măr mic. </p>")
 ,
 	      newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1480,8 +1479,8 @@ PennController("experiment" ,
 	       ,
   newText ("<p> Puiul de dragon trebuie să descrie a cui crede el că este umbra. </p>")
 	       ,
-   newText ("<p> Când puiul de dragon oferă cea mai bună descriere, trebuie să-l recompensezi cu un măr mare. </p>"), 
-   newText ("<p> Atunci când puiul de dragon nu oferă cea mai bună descriere, îi dai doar un măr mic. </p>")
+  newText ("<p> Când ceea ce puiul de dragon spune este bine, trebuie să-l recompensezi cu un măr mare. </p>"), 
+   newText ("<p> Când ceea ce puiul de dragon spune nu e bine, îi dai doar un măr mic. </p>")
 ,
 	      newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -2063,9 +2062,9 @@ PennController("experiment" ,
 	       ,
   newText ("<p> Puiul de dragon trebuie să descrie a cui crede el că este umbra. </p>")
 	       ,
-   newText ("<p> Când puiul de dragon oferă cea mai bună descriere, trebuie să-l recompensezi cu un măr mare. </p>"), 
-   newText ("<p> Atunci când puiul de dragon nu oferă cea mai bună descriere, îi dai doar un măr mic. </p>")
-,
+    newText ("<p> Când ceea ce puiul de dragon spune este bine, trebuie să-l recompensezi cu un măr mare. </p>"), 
+   newText ("<p> Când ceea ce puiul de dragon spune nu e bine, îi dai doar un măr mic. </p>")
+	       ,
 	      newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -2621,7 +2620,7 @@ PennController("experiment" ,
 ;
 PennController.SendResults( "send" );
 PennController( "final" ,
-    newText("<p> Mulţumesc pentru participare! Codul chestionarului pentru MTurk este: kp5t6r. Te rog fă copy-paste acestui cod în MTurk!</p>") 
+    newText("<p> Mulţumesc pentru participare! Codul chestionarului pentru MTurk este: mb5t8b. Te rog fă copy-paste acestui cod în MTurk!</p>") 
 	       .print()
 	       ,
 	 newText("<p> Puiul de dragon îţi mulţumeşte pentru mere şi la fel şi vrăjitorul! Pa-pa! </p>")
