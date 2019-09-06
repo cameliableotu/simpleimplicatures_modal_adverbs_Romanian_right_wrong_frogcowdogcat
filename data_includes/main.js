@@ -701,7 +701,7 @@ PennController("experiment" ,
 	        .print(),
 	       newText ("<p> Uite, câinele roşu a revenit în faţa cortinei, alăturându-se câinelui galben, dar umbra este încă acolo, în lumina reflectoarelor</p>")
 	         ,        
-	       newText ("<p> Deci umbra nu este câinele roşu! Şi nu este câinele galben".</p>")
+	       newText ("<p> Deci umbra nu este câinele roşu! Şi nu este câinele galben.</p>")
 	         ,         
 	     newImage ("dogshadowtwodogsonstage", "dogshadowtwodogsonstage.png")
                .print ()
@@ -1318,7 +1318,7 @@ PennController ("experiment",
 		,
 		newText ("<p> Puiul de dragon: Poate că este broasca mov.</p>")
 		,
-		newText ("<p> Cum vei răsplăti puiul de dragon? </p>)
+		newText ("<p> Cum vei răsplăti puiul de dragon? </p>")
 		,	 
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
