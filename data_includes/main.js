@@ -2623,7 +2623,7 @@ PennController("experiment" ,
 
 PennController.SendResults( "send" );
 PennController( "final" ,
-    newText("<p> Mulţumesc pentru participare! Codul chestionarului pentru MTurk este: mb5t8b. Te rog fă copy-paste acestui cod în MTurk!</p>") 
+    newText("<p> Mulţumesc pentru participare! Codul chestionarului pentru MTurk este: mb5t9b. Te rog fă copy-paste acestui cod în MTurk!</p>") 
 	       .print()
 	       ,
 	 newText("<p> Puiul de dragon îţi mulţumeşte pentru mere şi la fel şi vrăjitorul! Pa-pa! </p>")
