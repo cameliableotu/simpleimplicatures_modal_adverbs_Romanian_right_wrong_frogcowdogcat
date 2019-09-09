@@ -716,17 +716,17 @@ PennController("experiment" ,
 PennController ("experiment",
 		defaultText
 	        .print(),
+		newText ("<p> Hai acum să vedem ce zice puiul de dragon despre umbră. </p>")
+		,
 		newImage ("dogshadowtwodogsonstage", "dogshadowtwodogsonstage.png")
                .print ()
 		,
 		newAudio("barking", "barking.mp3")
 		.play()
 		,
-		newText ("<p> Hai acum să vedem ce zice puiul de dragon despre umbră. </p>")
-		,
 		newText ("<p> Puiul de dragon: Sigur că este câinele roşu.</p>")
 		,
-		newText ("<p> Cum vei răsplăti puiul de dragon> </p>")
+		newText ("<p> Cum vei răsplăti puiul de dragon? </p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
