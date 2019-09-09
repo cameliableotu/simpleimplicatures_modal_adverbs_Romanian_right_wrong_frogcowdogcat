@@ -234,20 +234,37 @@ PennController("introductionanimals" ,
 	    defaultText
 	        .print()
 	    ,
-	    newText ("<p> Hai acum să facem cunoştinţă cu celelalte animale din spectacol. Avem un grup de trei câini. </p>")
+	    newText ("<p> Hai acum să facem cunoştinţă cu celelalte animale din spectacol. Avem un grup de trei vaci. </p>")
 	    ,
 	                  
-	     newImage ("threedogs.png")
+	     newImage ("threecows.png")
                .print ()
 	       ,
-	       newAudio("barking", "barking.mp3")
+	       newAudio("cowsounds2sec", "cowsounds2sec.mp3")
 		.play()
 	       ,
 	       newKey(" ")
         .wait()
+	       
+	      )	
+; 
+PennController("introductionanimals" ,
+	    defaultText
+	        .print(),
+	       newText ("<p> Un grup de trei pisici. </p>")
+	    ,
+	                  
+	     newImage ("threecats.png")
+               .print ()
+	       ,
+	       newAudio("catsounds", "catsounds.mp3")
+		.play()
+	       ,
+	       newKey(" ")
+        .wait()
+	       
 	      )
 ;
-
 PennController("introductionanimals" ,
 	    defaultText
 	        .print()
@@ -268,38 +285,22 @@ PennController("introductionanimals" ,
 ;       
 PennController("introductionanimals" ,
 	    defaultText
-	        .print(),
-	       newText ("<p> Un grup de trei pisici. </p>")
+	        .print()
+	    ,
+    newText "<p> Şi un grup de trei câini. </p>")
 	    ,
 	                  
-	     newImage ("threecats.png")
+	     newImage ("threedogs.png")
                .print ()
 	       ,
-	       newAudio("catsounds", "catsounds.mp3")
+	       newAudio("barking", "barking.mp3")
 		.play()
 	       ,
 	       newKey(" ")
         .wait()
-	       
 	      )
 ;
-PennController("introductionanimals" ,
-	    defaultText
-	        .print(),
-	       newText ("<p> Un grup de trei vaci. </p>")
-	    ,
-	                  
-	     newImage ("threecows.png")
-               .print ()
-	       ,
-	       newAudio("cowsounds2sec", "cowsounds2sec.mp3")
-		.play()
-	       ,
-	       newKey(" ")
-        .wait()
-	       
-	      )	
-;
+
 PennController("experiment" ,
 	    defaultText
 	        .print()
